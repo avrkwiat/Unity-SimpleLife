@@ -1,5 +1,7 @@
 # Unity-SimpleLife
-Unity RPG game.
+Unity Engine 2018.2.0b6
+
+RPG game.
 
 Link to author Sprites (All art is dual licensed: GPL3 and CC-BY-SA3):
 http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator/
