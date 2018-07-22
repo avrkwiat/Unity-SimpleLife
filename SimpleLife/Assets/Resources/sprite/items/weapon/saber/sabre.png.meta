@@ -1,0 +1,1009 @@
+fileFormatVersion: 2
+guid: 3680a72e4def445499d38d185aa63aff
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sabre_up_0
+    21300002: sabre_up_2
+    21300004: sabre_up_3
+    21300006: sabre_up_4
+    21300008: sabre_up_5
+    21300010: sabre_left_0
+    21300012: sabre_left_1
+    21300014: sabre_left_2
+    21300016: sabre_left_3
+    21300018: sabre_left_4
+    21300020: sabre_left_5
+    21300022: sabre_down_0
+    21300024: sabre_down_1
+    21300026: sabre_down_2
+    21300028: sabre_down_3
+    21300030: sabre_down_4
+    21300032: sabre_down_5
+    21300034: sabre_right_0
+    21300036: sabre_right_1
+    21300038: sabre_right_2
+    21300040: sabre_right_3
+    21300042: sabre_right_4
+    21300044: sabre_right_5
+    21300046: sabre_up_1
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sabre_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -21}
+        - {x: -7, y: -23}
+        - {x: -6, y: -26}
+        - {x: 3, y: -26}
+        - {x: 7, y: -25}
+        - {x: 7, y: -21}
+        - {x: 6, y: -19}
+        - {x: 3, y: -16}
+        - {x: 0, y: -16}
+      - - {x: 16, y: -12}
+        - {x: 12, y: -12}
+        - {x: 9, y: -16}
+        - {x: 9, y: -19}
+        - {x: 10, y: -21}
+        - {x: 14, y: -21}
+        - {x: 18, y: -17}
+        - {x: 18, y: -13}
+      physicsShape:
+      - - {x: -7, y: -21}
+        - {x: -7, y: -23}
+        - {x: -6, y: -26}
+        - {x: 3, y: -26}
+        - {x: 7, y: -25}
+        - {x: 7, y: -21}
+        - {x: 6, y: -19}
+        - {x: 3, y: -16}
+        - {x: 0, y: -16}
+      - - {x: 16, y: -12}
+        - {x: 12, y: -12}
+        - {x: 9, y: -16}
+        - {x: 9, y: -19}
+        - {x: 10, y: -21}
+        - {x: 14, y: -21}
+        - {x: 18, y: -17}
+        - {x: 18, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9286e5b4b35c8ec49a9a481c251f0433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_up_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -3}
+        - {x: -27, y: -6}
+        - {x: -27, y: -12}
+        - {x: -10, y: -12}
+        - {x: -9, y: -9}
+        - {x: -9, y: -5}
+        - {x: -10, y: -3}
+      physicsShape:
+      - - {x: -25, y: -3}
+        - {x: -27, y: -6}
+        - {x: -27, y: -12}
+        - {x: -10, y: -12}
+        - {x: -9, y: -9}
+        - {x: -9, y: -5}
+        - {x: -10, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55877f38da49a940a5724506a7cacc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_up_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 4}
+        - {x: -15, y: -1}
+        - {x: -13, y: -5}
+        - {x: -6, y: -5}
+        - {x: -4, y: -1}
+        - {x: -4, y: 2}
+        - {x: -8, y: 4}
+      physicsShape:
+      - - {x: -15, y: 4}
+        - {x: -15, y: -1}
+        - {x: -13, y: -5}
+        - {x: -6, y: -5}
+        - {x: -4, y: -1}
+        - {x: -4, y: 2}
+        - {x: -8, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fdf5f5ec11cb54b896fa0e638d86be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_up_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 19}
+        - {x: 9, y: 17}
+        - {x: 9, y: 10}
+        - {x: 12, y: -1}
+        - {x: 18, y: -5}
+        - {x: 23, y: -5}
+        - {x: 33, y: 8}
+        - {x: 33, y: 16}
+        - {x: 32, y: 19}
+      physicsShape:
+      - - {x: 16, y: 19}
+        - {x: 9, y: 17}
+        - {x: 9, y: 10}
+        - {x: 12, y: -1}
+        - {x: 18, y: -5}
+        - {x: 23, y: -5}
+        - {x: 33, y: 8}
+        - {x: 33, y: 16}
+        - {x: 32, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66066ff53934c724db19ecea0cf037b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_up_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 12}
+        - {x: 29, y: 12}
+        - {x: 16, y: 0}
+        - {x: 16, y: -8}
+        - {x: 20, y: -10}
+        - {x: 31, y: -10}
+        - {x: 47, y: -8}
+        - {x: 50, y: -2}
+        - {x: 50, y: 5}
+        - {x: 43, y: 11}
+      physicsShape:
+      - - {x: 42, y: 12}
+        - {x: 29, y: 12}
+        - {x: 16, y: 0}
+        - {x: 16, y: -8}
+        - {x: 20, y: -10}
+        - {x: 31, y: -10}
+        - {x: 47, y: -8}
+        - {x: 50, y: -2}
+        - {x: 50, y: 5}
+        - {x: 43, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8517f566d4a19c74b84c6287964beac6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -9}
+        - {x: -25, y: -21}
+        - {x: -25, y: -23}
+        - {x: -24, y: -25}
+        - {x: -23, y: -26}
+        - {x: -9, y: -26}
+        - {x: -4, y: -18}
+        - {x: -4, y: -9}
+      physicsShape:
+      - - {x: -10, y: -9}
+        - {x: -25, y: -21}
+        - {x: -25, y: -23}
+        - {x: -24, y: -25}
+        - {x: -23, y: -26}
+        - {x: -9, y: -26}
+        - {x: -4, y: -18}
+        - {x: -4, y: -9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6450b16037e3ebd4baf1bf6a5b7909a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_left_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -11}
+        - {x: -16, y: -20}
+        - {x: -15, y: -23}
+        - {x: -7, y: -23}
+        - {x: -2, y: -17}
+        - {x: -2, y: -12}
+        - {x: -7, y: -11}
+      physicsShape:
+      - - {x: -16, y: -11}
+        - {x: -16, y: -20}
+        - {x: -15, y: -23}
+        - {x: -7, y: -23}
+        - {x: -2, y: -17}
+        - {x: -2, y: -12}
+        - {x: -7, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6a5f9b0d4c3e478d82487dc3be99b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_left_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -10}
+        - {x: -13, y: -22}
+        - {x: 8, y: -22}
+        - {x: 8, y: -10}
+      - - {x: 9, y: -22}
+        - {x: 12, y: -21}
+        - {x: 12, y: -18}
+        - {x: 9, y: -17}
+        - {x: 7, y: -19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cd0c3e10eaa1445babca4e6df8446a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_left_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -7}
+        - {x: 3, y: -6}
+        - {x: -21, y: -6}
+        - {x: -24, y: -7}
+        - {x: -24, y: -17}
+        - {x: -14, y: -17}
+        - {x: 8, y: -16}
+        - {x: 10, y: -15}
+        - {x: 10, y: -12}
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 3, y: -6}
+        - {x: -21, y: -6}
+        - {x: -24, y: -7}
+        - {x: -24, y: -17}
+        - {x: -14, y: -17}
+        - {x: 8, y: -16}
+        - {x: 10, y: -15}
+        - {x: 10, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45684e4518e79f439284bfcdad41d92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_left_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 4}
+        - {x: -43, y: -3}
+        - {x: -36, y: -9}
+        - {x: -22, y: -14}
+        - {x: -10, y: -14}
+        - {x: -9, y: -13}
+        - {x: -9, y: 2}
+        - {x: -16, y: 4}
+      physicsShape:
+      - - {x: -43, y: 4}
+        - {x: -43, y: -3}
+        - {x: -36, y: -9}
+        - {x: -22, y: -14}
+        - {x: -10, y: -14}
+        - {x: -9, y: -13}
+        - {x: -9, y: 2}
+        - {x: -16, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773f4cbec4343f4c9601ce5113114e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_left_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 7}
+        - {x: -36, y: 7}
+        - {x: -40, y: 6}
+        - {x: -45, y: 3}
+        - {x: -46, y: 1}
+        - {x: -46, y: -3}
+        - {x: -36, y: -6}
+        - {x: -12, y: -6}
+        - {x: -12, y: 4}
+      physicsShape:
+      - - {x: -24, y: 7}
+        - {x: -36, y: 7}
+        - {x: -40, y: 6}
+        - {x: -45, y: 3}
+        - {x: -46, y: 1}
+        - {x: -46, y: -3}
+        - {x: -36, y: -6}
+        - {x: -12, y: -6}
+        - {x: -12, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954fa2ac3a2247f4da6f51f2a831d939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -10}
+        - {x: -14, y: -20}
+        - {x: -14, y: -25}
+        - {x: -12, y: -26}
+        - {x: 4, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: -12}
+        - {x: 16, y: -10}
+      physicsShape:
+      - - {x: 7, y: -10}
+        - {x: -14, y: -20}
+        - {x: -14, y: -25}
+        - {x: -12, y: -26}
+        - {x: 4, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: -12}
+        - {x: 16, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f0169632deee48b100cb710e2a586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_down_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -8}
+        - {x: -23, y: -10}
+        - {x: -25, y: -12}
+        - {x: -25, y: -17}
+        - {x: -23, y: -19}
+        - {x: 12, y: -19}
+        - {x: 12, y: -12}
+        - {x: 6, y: -8}
+      physicsShape:
+      - - {x: 3, y: -8}
+        - {x: -23, y: -10}
+        - {x: -25, y: -12}
+        - {x: -25, y: -17}
+        - {x: -23, y: -19}
+        - {x: 12, y: -19}
+        - {x: 12, y: -12}
+        - {x: 6, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f12690d5846fe34f83221ae64f87abd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_down_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -4}
+        - {x: -27, y: -5}
+        - {x: -27, y: -15}
+        - {x: -13, y: -19}
+        - {x: 2, y: -19}
+        - {x: 4, y: -18}
+        - {x: 4, y: -14}
+        - {x: -2, y: -8}
+      physicsShape:
+      - - {x: -25, y: -4}
+        - {x: -27, y: -5}
+        - {x: -27, y: -15}
+        - {x: -13, y: -19}
+        - {x: 2, y: -19}
+        - {x: 4, y: -18}
+        - {x: 4, y: -14}
+        - {x: -2, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9270c5415c674ca4ba3a3aa7ed0deae7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_down_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -10}
+        - {x: -20, y: -23}
+        - {x: -13, y: -26}
+        - {x: -1, y: -26}
+        - {x: 14, y: -19}
+        - {x: 14, y: -13}
+        - {x: 13, y: -10}
+      physicsShape:
+      - - {x: -20, y: -10}
+        - {x: -20, y: -23}
+        - {x: -13, y: -26}
+        - {x: -1, y: -26}
+        - {x: 14, y: -19}
+        - {x: 14, y: -13}
+        - {x: 13, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed3e52153f126f48b8c49de37d70769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_down_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -7}
+        - {x: 0, y: -19}
+        - {x: -1, y: -23}
+        - {x: -4, y: -22}
+        - {x: -9, y: -23}
+        - {x: -9, y: -32}
+        - {x: -8, y: -37}
+        - {x: 2, y: -38}
+        - {x: 30, y: -38}
+        - {x: 34, y: -35}
+        - {x: 34, y: -22}
+        - {x: 29, y: -7}
+      physicsShape:
+      - - {x: 13, y: -7}
+        - {x: 0, y: -19}
+        - {x: -1, y: -23}
+        - {x: -4, y: -22}
+        - {x: -9, y: -23}
+        - {x: -9, y: -32}
+        - {x: -8, y: -37}
+        - {x: 2, y: -38}
+        - {x: 30, y: -38}
+        - {x: 34, y: -35}
+        - {x: 34, y: -22}
+        - {x: 29, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd309bb5053994f96ea6731530f152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_down_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -4}
+        - {x: 19, y: -5}
+        - {x: 19, y: -22}
+        - {x: 21, y: -29}
+        - {x: 38, y: -29}
+        - {x: 51, y: -21}
+        - {x: 51, y: -11}
+        - {x: 49, y: -7}
+        - {x: 40, y: -6}
+        - {x: 27, y: -4}
+      physicsShape:
+      - - {x: 20, y: -4}
+        - {x: 19, y: -5}
+        - {x: 19, y: -22}
+        - {x: 21, y: -29}
+        - {x: 38, y: -29}
+        - {x: 51, y: -21}
+        - {x: 51, y: -11}
+        - {x: 49, y: -7}
+        - {x: 40, y: -6}
+        - {x: 27, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98939c4b5ae9424fbcebca49dee0b5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -19}
+        - {x: 14, y: -26}
+        - {x: 25, y: -26}
+        - {x: 25, y: -20}
+        - {x: 17, y: -9}
+        - {x: 5, y: -9}
+        - {x: 4, y: -12}
+      physicsShape:
+      - - {x: 4, y: -19}
+        - {x: 14, y: -26}
+        - {x: 25, y: -26}
+        - {x: 25, y: -20}
+        - {x: 17, y: -9}
+        - {x: 5, y: -9}
+        - {x: 4, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4666b0be7e72dc45a5cebbf6bd76761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_right_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -11}
+        - {x: 1, y: -14}
+        - {x: 1, y: -18}
+        - {x: 5, y: -23}
+        - {x: 13, y: -23}
+        - {x: 15, y: -22}
+        - {x: 15, y: -14}
+        - {x: 13, y: -11}
+      physicsShape:
+      - - {x: 2, y: -11}
+        - {x: 1, y: -14}
+        - {x: 1, y: -18}
+        - {x: 5, y: -23}
+        - {x: 13, y: -23}
+        - {x: 15, y: -22}
+        - {x: 15, y: -14}
+        - {x: 13, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0deb38e493e8d449242f921a3f1b50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_right_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -22}
+        - {x: -7, y: -21}
+        - {x: -7, y: -18}
+        - {x: -10, y: -17}
+        - {x: -12, y: -19}
+      - - {x: -4, y: -10}
+        - {x: -8, y: -12}
+        - {x: -8, y: -22}
+        - {x: 13, y: -22}
+        - {x: 13, y: -12}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: -22}
+        - {x: -7, y: -21}
+        - {x: -7, y: -18}
+        - {x: -10, y: -17}
+        - {x: -12, y: -19}
+      - - {x: -4, y: -10}
+        - {x: -8, y: -12}
+        - {x: -8, y: -22}
+        - {x: 13, y: -22}
+        - {x: 13, y: -12}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a0557d2cb2b8244901400c4db14bab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_right_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -6}
+        - {x: -7, y: -7}
+        - {x: -10, y: -12}
+        - {x: -10, y: -13}
+        - {x: -8, y: -17}
+        - {x: 24, y: -17}
+        - {x: 24, y: -6}
+      physicsShape:
+      - - {x: 2, y: -6}
+        - {x: -7, y: -7}
+        - {x: -10, y: -12}
+        - {x: -10, y: -13}
+        - {x: -8, y: -17}
+        - {x: 24, y: -17}
+        - {x: 24, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1acef7c4a8ddf1449857387e090fb2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_right_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 4}
+        - {x: 17, y: 4}
+        - {x: 14, y: 1}
+        - {x: 9, y: -10}
+        - {x: 9, y: -14}
+        - {x: 24, y: -14}
+        - {x: 40, y: -8}
+        - {x: 43, y: -3}
+        - {x: 43, y: 2}
+      physicsShape:
+      - - {x: 41, y: 4}
+        - {x: 17, y: 4}
+        - {x: 14, y: 1}
+        - {x: 9, y: -10}
+        - {x: 9, y: -14}
+        - {x: 24, y: -14}
+        - {x: 40, y: -8}
+        - {x: 43, y: -3}
+        - {x: 43, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c4a7b7b8e45d54aa71daf954a98153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_right_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 7}
+        - {x: 15, y: 7}
+        - {x: 12, y: 1}
+        - {x: 12, y: -5}
+        - {x: 13, y: -6}
+        - {x: 38, y: -6}
+        - {x: 46, y: -5}
+        - {x: 46, y: 2}
+      physicsShape:
+      - - {x: 42, y: 7}
+        - {x: 15, y: 7}
+        - {x: 12, y: 1}
+        - {x: 12, y: -5}
+        - {x: 13, y: -6}
+        - {x: 38, y: -6}
+        - {x: 46, y: -5}
+        - {x: 46, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5157825ed3b564d83d3eaca19c378e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabre_up_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319c522895041654b9407beb39f62f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3727a2799ba54a94c820ee349e20950e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
