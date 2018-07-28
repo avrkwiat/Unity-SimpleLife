@@ -303,6 +303,39 @@ public class CustomizeScript : MonoBehaviour {
 
 			path =animUtils.backBodyName((int)raceSlider.value);
 
+			switch(path){
+				case "black":
+					mainGameScen = "Ubalib";
+				break;
+				case "dark": //slave
+					mainGameScen = "Police";
+				break;
+				case "darkelf": //ethernal
+					mainGameScen = "Telkawia";
+				break;
+				case "light":
+					mainGameScen = "Trotlin";
+				break;
+				case "tanned":
+					mainGameScen = "Grunled";
+				break;
+				case "skeleton":
+					mainGameScen = "Police";
+				break;
+				case "orc":
+					mainGameScen = "Mosicowa";
+				break;
+				case "redorc":
+					mainGameScen = "Mosicowa";
+				break;
+				case "default":
+					mainGameScen = "Start";
+				break;
+				default:
+					mainGameScen = "Start";
+				break;
+			}
+
 			if(path == "darkelf"){
 				isGhost = true;
 			}else{
