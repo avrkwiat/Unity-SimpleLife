@@ -43,10 +43,10 @@ public class menuScript : MonoBehaviour {
 		isGameRun = true;
 		isMenuRun = false;
 		
-		var clone1 = FindObjectOfType<CameraControler>();
-		clone1.GetComponent<Camera>().orthographicSize = 2.0f;
-
-		clone1.offset = new Vector2(0.77f,-0.33f);
+		//var clone1 = FindObjectOfType<CameraControler>();
+		//clone1.GetComponent<Camera>().orthographicSize = 2.0f;
+		//clone1.offset = new Vector2(0.77f,-0.33f);
+		
 		theLoadingScript.loading.SetActive(true);
 		StartCoroutine(theLoadingScript.LoadLevelWithBar(mainGameScen));
 

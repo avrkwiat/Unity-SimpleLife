@@ -10,9 +10,12 @@ public class PlayerHealthManager : MonoBehaviour {
     public float waitForReload;
     private float waitForReloadCurrent;
     private bool reloading;
+    private SFXManager sfxMan;
 
     // Use this for initialization
     void Start () {
+        sfxMan = FindObjectOfType<SFXManager>();
+
         playerCurrentHealth = playerMaxHealth;
         waitForReloadCurrent = waitForReload;
     }
@@ -50,6 +53,7 @@ public class PlayerHealthManager : MonoBehaviour {
     public void HurtPlayer(int damageToGive)
     {
         playerCurrentHealth -= damageToGive;
+        sfxMan.playerHurt.Play();
     }
 
     public void SetMaxHealth()

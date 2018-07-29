@@ -49,6 +49,7 @@ public class CustomizeScript : MonoBehaviour {
 	public PlayerController thePlayer;
 	public GameObject playerObject;
 	public GameObject uiObject;
+	public CameraControler theCamera;
 	public menuScript menuScript;
 	public loadingScript theLoadingScript;
 	private Slider hpSlider;
@@ -107,6 +108,10 @@ public class CustomizeScript : MonoBehaviour {
 	}*/
 	// Use this for initialization
 	void Start () {
+		theCamera = FindObjectOfType<CameraControler>();
+		theCamera.GetComponent<Camera>().orthographicSize = 2.0f;
+		theCamera.offset = new Vector2(0.77f,-0.33f);
+
 		///size image, button, cricleColor etc
 		colorPickerWheel.GetComponent<ColorWheelControl>().PickColor(Color.white);
 		float widthImage = Screen.width/2.1f;
@@ -211,40 +216,45 @@ public class CustomizeScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		col = colorPickerWheel.GetComponent<ColorWheelControl>().Selection;
-		if(isGhost){
-			col	= new Color(col.r, col.g, col.b, 0.4f);	
+		if(playerObject!=null){
+			col = colorPickerWheel.GetComponent<ColorWheelControl>().Selection;
+			if(isGhost){
+				col	= new Color(col.r, col.g, col.b, 0.4f);	
+			}else{
+				col	= new Color(col.r, col.g, col.b, 1f);
+			}
+			switch (colorChoiceEnum){
+				case enumColorChoice.RACE:
+						
+					body.color = col;	
+				
+				break;
+
+				case enumColorChoice.HAIR:
+					hair.color = col;
+						
+				break;
+
+				case enumColorChoice.EARS:
+					ears.color = col;						
+				break;
+
+				case enumColorChoice.EYES:
+					eyes.color = col;					
+				break;
+
+				case enumColorChoice.NOSE:
+					nose.color = col;						
+				break;
+
+				case enumColorChoice.FACIAL:
+					facial.color = col;						
+				break;
+			}
 		}else{
-			col	= new Color(col.r, col.g, col.b, 1f);
+			playerObject = GameObject.FindGameObjectWithTag("Player");
 		}
-		switch (colorChoiceEnum){
-			case enumColorChoice.RACE:
-			 		
-				body.color = col;	
-			
-			break;
-
-			case enumColorChoice.HAIR:
-				hair.color = col;
-					
-			break;
-
-			case enumColorChoice.EARS:
-				ears.color = col;						
-			break;
-
-			case enumColorChoice.EYES:
-				eyes.color = col;					
-			break;
-
-			case enumColorChoice.NOSE:
-				nose.color = col;						
-			break;
-
-			case enumColorChoice.FACIAL:
-				facial.color = col;						
-			break;
-		}
+		
 		
 		//Debug.Log(aaa2 + "||||||" + bbb2);
 
@@ -264,11 +274,12 @@ public class CustomizeScript : MonoBehaviour {
 		thePlayer.activeScene = mainGameScen;
 		
 		menuScript.isGameRun = true;
-		var clone = FindObjectOfType<CameraControler>();
-		clone.GetComponent<Camera>().orthographicSize = 5.0f;
-
-		//clear not use texture
-
+		//var clone = FindObjectOfType<CameraControler>();
+		//clone.GetComponent<Camera>().orthographicSize = 5.0f;
+		//clone.offset = new Vector2(0,0);
+		theCamera = FindObjectOfType<CameraControler>();
+		theCamera.GetComponent<Camera>().orthographicSize = 5.0f;
+		theCamera.offset = new Vector2(0,0);
 
 		//thePlayer.joyAction.gameObject.SetActive(true);
 		thePlayer.joyAttack.gameObject.SetActive(true);

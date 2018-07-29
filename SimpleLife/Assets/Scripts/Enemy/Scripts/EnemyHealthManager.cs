@@ -8,11 +8,14 @@ public class EnemyHealthManager : MonoBehaviour {
     public int CurrentHealth;
     private PlayerStats thePlayerStats;
     public int expToGive;
+    private SFXManager sfxMan;
 
 
     // Use this for initialization
     void Start()
     {
+        sfxMan = FindObjectOfType<SFXManager>();
+
         CurrentHealth = MaxHealth;
         thePlayerStats = FindObjectOfType<PlayerStats>();
     }
@@ -24,6 +27,7 @@ public class EnemyHealthManager : MonoBehaviour {
         {
             Destroy(gameObject);
             thePlayerStats.AddExperience(expToGive);
+            sfxMan.explosion.Play();
         }
         
     }

@@ -49,12 +49,13 @@ public class PlayerController : MonoBehaviour {
     public string startPoint;
     public string activeScene = "CustomizeScen";
     private bool findJoybutton = false;
+    private SFXManager sfxMan;
 
 
     // Use this for initialization
     void Start ()
     {
-        //Input.multiTouchEnabled = true; //enabled Multitouch
+        sfxMan = FindObjectOfType<SFXManager>();
 
         if(uICanvasObject==null){
             uICanvasObject = GameObject.Find("UIcanvas");
@@ -203,8 +204,9 @@ public class PlayerController : MonoBehaviour {
                                     attacking = true;
                                     myRigidbody.velocity = Vector2.zero;
                                     anim.SetBool("maleAttack", true);
+                                    sfxMan.playerMaleAttack.Play();
                             }
-                            //attack
+                            //attack spell
                             if (Input.GetAxisRaw("Fire3")>0 || joySpell.Pressed)
                             {
                                     spellAttacking = true;

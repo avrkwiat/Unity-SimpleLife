@@ -113,6 +113,56 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &95921408
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 15.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 53.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587393377974366, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 24.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4b40c34b28d69642931a332523f325a, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &101259467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3343,6 +3393,11 @@ Prefab:
       propertyPath: m_Name
       value: enter_House1
       objectReference: {fileID: 0}
+    - target: {fileID: 114409140681517412, guid: 08e72858a8d68aa43be2910163db2b0a,
+        type: 2}
+      propertyPath: leveToLoad
+      value: Police
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08e72858a8d68aa43be2910163db2b0a, type: 2}
   m_IsPrefabAsset: 0
@@ -3450,7 +3505,7 @@ Prefab:
     - target: {fileID: 114409140681517412, guid: 08e72858a8d68aa43be2910163db2b0a,
         type: 2}
       propertyPath: leveToLoad
-      value: Start
+      value: Police
       objectReference: {fileID: 0}
     - target: {fileID: 114111191031526754, guid: 08e72858a8d68aa43be2910163db2b0a,
         type: 2}
