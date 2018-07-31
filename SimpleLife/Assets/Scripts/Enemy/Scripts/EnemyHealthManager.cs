@@ -35,6 +35,7 @@ public class EnemyHealthManager : MonoBehaviour {
     public void HurtEnemy(int damageToGive)
     {
         CurrentHealth -= damageToGive;
+        sfxMan.impact.Play();
     }
 
     public void SetMaxHealth()

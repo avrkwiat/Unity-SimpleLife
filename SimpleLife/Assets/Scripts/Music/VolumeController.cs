@@ -6,6 +6,7 @@ public class VolumeController : MonoBehaviour {
 	private AudioSource theAudio;
 	private float audioLevel;
 	public float defaultAudio;
+	public bool isMusic;
 
 	// Use this for initialization
 	void Start () {

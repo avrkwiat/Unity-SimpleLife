@@ -13,10 +13,18 @@ public class menuScript : MonoBehaviour {
 	private GameObject theUI;
 
 	public loadingScript theLoadingScript;
+	public GameObject option;
+	private VolumeManager theVolume;
+	public Slider MusicSlider;
+	public Slider SFXSlider;
 
 	void Start (){
 		theLoadingScript = GetComponent<loadingScript>();
 		theLoadingScript.loading.SetActive(false);
+
+		theVolume = FindObjectOfType<VolumeManager>();
+		theVolume.VolumeChange();
+		
 	}
 
 	public void ContinueGame(){
@@ -52,7 +60,27 @@ public class menuScript : MonoBehaviour {
 
 		
 	}
+	public void OptionGame(){
+		option.SetActive(true);
+		if(theVolume != null){
+			MusicSlider.value = theVolume.currenMusicVolumeLevel;
+			SFXSlider.value = theVolume.currenSoundVolumeLevel;
+		}
+	}
+	public void MusicVolumeChange(){
+		theVolume.currenMusicVolumeLevel = MusicSlider.value;
 
+		theVolume.VolumeChange();
+	}
+	public void SFXVolumeChange(){
+		theVolume.currenSoundVolumeLevel = SFXSlider.value;
+
+		theVolume.VolumeChange();
+	}
+	public void OptionAccepted(){
+		option.SetActive(false);
+		
+	}
 	public void QuiteGame(){
 		if (Application.platform == RuntimePlatform.Android)
              {
@@ -65,4 +93,5 @@ public class menuScript : MonoBehaviour {
              }
 		
 	}
+
 }

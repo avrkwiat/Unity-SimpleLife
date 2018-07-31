@@ -6,6 +6,7 @@ public class SFXManager : MonoBehaviour {
 	public AudioSource playerHurt;
 	public AudioSource playerMaleAttack;
 	public AudioSource explosion;
+	public AudioSource impact;
 	private static bool SFXmanExists;
 	// Use this for initialization
 	void Start () {
